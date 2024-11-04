@@ -34,7 +34,7 @@ export default function RootLayout({
       >
         <SidebarProvider>
           <AppSidebar />
-          <main>
+          <main className="max-w-full grow">
             <SidebarTrigger className="block lg:hidden" />
             {children}
           </main>
